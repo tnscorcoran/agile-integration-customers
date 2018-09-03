@@ -15,6 +15,8 @@ var app = express();
 var connection  = require('express-myconnection');
 var mysql = require('mysql');
 
+var base64 = require('base-64');
+
 // all environments
 app.set('port', process.env.PORT || 8080);
 app.set('views', path.join(__dirname, 'views'));
@@ -61,7 +63,8 @@ app.use(
 
 console.log('######################################################################################################');
 
-console.log( process.env.database + ', '+process.env.username);
+console.log( base64.decode(process.env.database) + ', '+process.env.user + ', '+process.env.user );
+console.log( process.env.user + ', '+process.env.user );
 
 console.log('######################################################################################################');
 
