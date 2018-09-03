@@ -59,6 +59,11 @@ app.use(
 
 );
 
+console.log('######################################################################################################');
+
+console.log( process.env.database-name + ', '+process.env.database-root-password);
+
+console.log('######################################################################################################');
 
 // Web application
 app.get('/', customersweb.listall);
