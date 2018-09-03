@@ -38,6 +38,21 @@ if ('development' == app.get('env')) {
     connection peer, register as middleware
     type koneksi : single,pool and request
 -------------------------------------------*/
+var db = process.env.database;
+var host = process.env.host;
+var password = process.env.password;
+var port = process.env.port;
+var username = process.env.username;
+
+console.log('######################################################################################################');
+
+console.log( db + ', '+process.env.host + ', '+process.env.password );
+console.log( process.env.port + ', '+process.env.username );
+
+console.log('######################################################################################################');
+
+
+
 
 app.use(
 
@@ -67,12 +82,6 @@ app.use(
 
 );
 
-console.log('######################################################################################################');
-
-console.log( process.env.database + ', '+process.env.host + ', '+process.env.password );
-console.log( process.env.port + ', '+process.env.username );
-
-console.log('######################################################################################################');
 
 // Web application
 app.get('/', customersweb.listall);
