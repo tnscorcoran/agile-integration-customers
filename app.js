@@ -44,32 +44,13 @@ var password = process.env.password.trim();
 var port = process.env.port.trim();
 var username = process.env.username.trim();
 
-console.log('######################################################################################################');
-
-//console.log( process.env.db + ', '+process.env.host + ', '+process.env.password );
-//console.log( process.env.port + ', '+process.env.username );
-
-console.log( '<'+ db + '><'+ host + '><'+password + '>' );
-console.log( '<'+ port + '><'+ username + '>' );
-
-console.log('######################################################################################################');
-
-
-
 
 app.use(
 
     connection(mysql,{
-
-        //host: '172.30.139.23', // host mysql service
-        //user: 'dbuser',
-        //password : 'password',
-        //port : 3306, // port mysql service
-        //database:'sampledb'
-      
-        //host: '172.30.188.41', // host mysql service
+        //host: '1.2.3.4', // host mysql service
         //user: 'root',
-        //password : 'Q8p1AXkQ7P5eEVVN',
+        //password : 'generated',
         //port : 3306, // port mysql service
         //database:'sampledb'
       
