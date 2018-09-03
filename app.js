@@ -63,8 +63,8 @@ app.use(
 
 console.log('######################################################################################################');
 
-console.log( process.env.database + ', '+process.env.user + ', '+process.env.user );
-console.log( process.env.user + ', '+process.env.user );
+console.log( process.env.database + ', '+process.env.host + ', '+process.env.password );
+console.log( process.env.port + ', '+process.env.username );
 
 console.log('######################################################################################################');
 
