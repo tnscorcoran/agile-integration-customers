@@ -49,8 +49,8 @@ console.log('###################################################################
 //console.log( process.env.db + ', '+process.env.host + ', '+process.env.password );
 //console.log( process.env.port + ', '+process.env.username );
 
-console.log( '<'+db + '><'+host + '><'+password );
-console.log( port + '><'+username + '>' );
+console.log( '<'+ db + '><'+ host + '><'+password + '>' );
+console.log( '<'+ port + '><'+ username + '>' );
 
 console.log('######################################################################################################');
 
