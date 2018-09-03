@@ -46,8 +46,11 @@ var username = process.env.username;
 
 console.log('######################################################################################################');
 
-console.log( db + ', '+process.env.host + ', '+process.env.password );
-console.log( process.env.port + ', '+process.env.username );
+//console.log( process.env.db + ', '+process.env.host + ', '+process.env.password );
+//console.log( process.env.port + ', '+process.env.username );
+
+console.log( db + ', '+host + ', '+password );
+console.log( port + ', '+username );
 
 console.log('######################################################################################################');
 
@@ -74,7 +77,7 @@ app.use(
         user: 'root',
         password : 'Q8p1AXkQ7P5eEVVN',
         port : 3306, 
-        database: 'process.env.database'
+        database: process.env.database
       
       
 
