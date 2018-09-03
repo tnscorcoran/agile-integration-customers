@@ -56,7 +56,7 @@ app.use(
         //database:'sampledb'
       
         host: process.env.host, // host mysql service
-        user: 'process.env.username,
+        user: process.env.username,
         password : process.env.password,
         port : process.env.port, 
         database: process.env.database
