@@ -58,7 +58,7 @@ app.use(
         host: process.env.host, // host mysql service
         user: process.env.username,
         password : process.env.password,
-        port : process.env.port, 
+        port : 3306, 
         database: process.env.database
       
       
