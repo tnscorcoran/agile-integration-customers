@@ -73,10 +73,10 @@ app.use(
         //port : 3306, // port mysql service
         //database:'sampledb'
       
-        host: '172.30.188.41', // host mysql service
-        user: 'root',
-        password : 'Q8p1AXkQ7P5eEVVN',
-        port : 3306, 
+        host: host, // host mysql service
+        user: username,
+        password : password,
+        port : port, 
         database: db
       
       
