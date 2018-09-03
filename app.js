@@ -59,7 +59,7 @@ app.use(
         user: 'root',
         password : 'Q8p1AXkQ7P5eEVVN',
         port : 3306, 
-        database: '+process.env.database+'
+        database: 'eval(process.env.database)'
       
       
 
