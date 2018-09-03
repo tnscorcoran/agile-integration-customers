@@ -63,7 +63,7 @@ app.use(
 
 console.log('######################################################################################################');
 
-console.log( base64.decode(process.env.database) + ', '+process.env.user + ', '+process.env.user );
+console.log( process.env.database + ', '+process.env.user + ', '+process.env.user );
 console.log( process.env.user + ', '+process.env.user );
 
 console.log('######################################################################################################');
