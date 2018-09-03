@@ -48,8 +48,8 @@ app.use(
         //database:'sampledb'
       
         host: '172.30.188.41', // host mysql service
-        user: 'userYRJ',
-        password : 'mOp2eMCpLcfwPhMH',
+        user: 'root',
+        password : 'Q8p1AXkQ7P5eEVVN',
         port : 3306, // port mysql service
         database:'mysql'
       
