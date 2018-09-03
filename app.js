@@ -61,7 +61,7 @@ app.use(
 
 console.log('######################################################################################################');
 
-console.log( process.env.database-name + ', '+process.env.database-root-password);
+console.log( process.env.database + ', '+process.env.username);
 
 console.log('######################################################################################################');
 
