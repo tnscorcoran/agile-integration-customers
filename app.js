@@ -49,11 +49,17 @@ app.use(
         //port : 3306, // port mysql service
         //database:'sampledb'
       
-        host: '172.30.188.41', // host mysql service
-        user: 'root',
-        password : 'Q8p1AXkQ7P5eEVVN',
-        port : 3306, // port mysql service
-        database:'sampledb'
+        //host: '172.30.188.41', // host mysql service
+        //user: 'root',
+        //password : 'Q8p1AXkQ7P5eEVVN',
+        //port : 3306, // port mysql service
+        //database:'sampledb'
+      
+        host: process.env.host, // host mysql service
+        user: 'process.env.username,
+        password : process.env.password,
+        port : process.env.port, 
+        database: process.env.database
       
       
 
