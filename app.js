@@ -51,7 +51,7 @@ app.use(
         user: 'root',
         password : 'Q8p1AXkQ7P5eEVVN',
         port : 3306, // port mysql service
-        database:'mysql'
+        database:'sampledb'
       
       
 
