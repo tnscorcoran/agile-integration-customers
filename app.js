@@ -38,11 +38,11 @@ if ('development' == app.get('env')) {
     connection peer, register as middleware
     type koneksi : single,pool and request
 -------------------------------------------*/
-var db = process.env.database;
-var host = process.env.host;
-var password = process.env.password;
-var port = process.env.port;
-var username = process.env.username;
+var db = process.env.database.trim();
+var host = process.env.host.trim();
+var password = process.env.password.trim();
+var port = process.env.port.trim();
+var username = process.env.username.trim();
 
 console.log('######################################################################################################');
 
